@@ -1,6 +1,30 @@
-% Structures and Standards in IOA
-% Dave Dubin
-% September 15, 2015
+---
+title: Structures and Standards in IOA
+author: Dave Dubin
+date: September 13, 2016
+header-includes:
+  - \usepackage[utf8]{inputenc}
+  - \usepackage{amssymb}
+  - \usepackage{mathtools}
+csl: apa-annotated-bibliography.csl
+references:
+- id: dubin02:standards
+  type: chapter
+  author:
+  - family: Dubin
+    given: D.
+  editor:
+  - family: Schement
+    given: J. R.
+  issued:
+  - year: '2002'
+  title: Standards and information
+  container-title: Encyclopedia of communication and information
+  publisher: Macmillan
+  publisher-place: New York
+  page: '965-967'
+  volume: '3'
+...
 
 # Standards as invisible solutions
 
@@ -33,7 +57,48 @@ For our purposes, an adequate
 definition of “information processing standards” is that they are
 precisely documented agreements about methods or protocols for
 information processing, that are realized in the operation of computer
-hardware and software.
+hardware and software [@dubin02:standards].
+
+# SGML/XML Markup
+
+~~~~
+<syllabus>
+  <head>
+    <course>
+      <cname>Information Modeling</cname>
+      <cnumber>LIS 561</cnumber>
+      <dept>School of Information Sciences</dept>
+      <term>Fall 2016</term>
+    </course>
+    <sections>
+      <section>
+         <secid>Section A</secid>
+         <when>Monday 1:00 PM&ndash;3:50 PM</when>
+         <where>Room 126, LIS Building</where>
+      </section>
+   </sections>
+~~~~
+
+# Markdown
+
+~~~~
+**Assignments, Exercises & Grade Distribution:** 
+
+ - Assignment 1: Information Needs/Information Seeking
+   Behavior. Due A1DUE (20%).
+ - Assignment 2: Digital Collections Assessment.
+   Due A2DUE (20%).
+ - Assignment 3: Final Project. Due A3DUE (40%).
+ - 10 Labs for Attendance and Completion/Class
+   Participation (20%) 
+
+**Labs:**
+
+ 1. Library resources (LAB1DATE) 
+ 2. ITD on computing resources (LAB2DATE)
+ 3. Research methods exercise (LAB3DATE)
+ 4. Pandoc encoding and transformation (LAB4DATE) 
+~~~~
 
 # Standards as solutions
 
@@ -97,3 +162,5 @@ This presentation adapted from:
 D. Dubin. Standards and information. In J. R. Schement, editor,
 *Encyclopedia of Communication and Information*, volume 3, pages
 965-967. Macmillan, New York, 2002.
+
+# Further information
