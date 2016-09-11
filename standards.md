@@ -59,6 +59,13 @@ precisely documented agreements about methods or protocols for
 information processing, that are realized in the operation of computer
 hardware and software [@dubin02:standards].
 
+# Markup
+
+- Markup identifies the boundaries and properties of structures in a text.
+- Markup consists of symbols from the same repertoire as those used to
+  encode the text.
+- Even whitepace and punctuation are a kind of markup [@renear87]
+
 # SGML/XML Markup
 
 ~~~~
@@ -99,6 +106,29 @@ hardware and software [@dubin02:standards].
  3. Research methods exercise (LAB3DATE)
  4. Pandoc encoding and transformation (LAB4DATE) 
 ~~~~
+
+# RDF as generalized markup
+
+~~~~
+:SemesterFall2016 a :Semester ;
+  event:time [ a tl:Interval ;
+      tl:at "2016-08-22T00:00:00-5:00"^^xsd:dateTime ;
+      tl:duration "P70D"^^xsd:duration] ;
+  dcterms:subject :GenBackground ;
+  rdfs:label "Fall semester"@en .
+
+:Asgt3 a :Assignment ;
+  rdfs:label "Assignment 3: Research Design Proposal"@en ;
+  :moodleURL hwk:MOODLEASGT3 ;
+  :sylSecId "Asgt3" ;
+  :hasDeadline :A3M1, :A3M2, :A3M3, :A3D1, :A3D2, :A3D3 .
+
+:A3M1 a :Deadline ;
+  rdfs:label "Assignment 3 research question draft"@en ;
+  :dueDuring :Week3 ;
+  :dueDate "LAB3DATE" .
+~~~~
+
 
 # Standards as solutions
 
