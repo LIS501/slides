@@ -59,76 +59,6 @@ precisely documented agreements about methods or protocols for
 information processing, that are realized in the operation of computer
 hardware and software [@dubin02:standards].
 
-# Markup
-
-- Markup identifies the boundaries and properties of structures in a text.
-- Markup consists of symbols from the same repertoire as those used to
-  encode the text.
-- Even whitepace and punctuation are a kind of markup [@renear87]
-
-# SGML/XML Markup
-
-~~~~
-<syllabus>
-  <head>
-    <course>
-      <cname>Information Modeling</cname>
-      <cnumber>LIS 561</cnumber>
-      <dept>School of Information Sciences</dept>
-      <term>Fall 2016</term>
-    </course>
-    <sections>
-      <section>
-         <secid>Section A</secid>
-         <when>Monday 1:00 PM&ndash;3:50 PM</when>
-         <where>Room 126, LIS Building</where>
-      </section>
-   </sections>
-~~~~
-
-# Markdown
-
-~~~~
-**Assignments, Exercises & Grade Distribution:** 
-
- - Assignment 1: Information Needs/Information Seeking
-   Behavior. Due A1DUE (20%).
- - Assignment 2: Digital Collections Assessment.
-   Due A2DUE (20%).
- - Assignment 3: Final Project. Due A3DUE (40%).
- - 10 Labs for Attendance and Completion/Class
-   Participation (20%) 
-
-**Labs:**
-
- 1. Library resources (LAB1DATE) 
- 2. ITD on computing resources (LAB2DATE)
- 3. Research methods exercise (LAB3DATE)
- 4. Pandoc encoding and transformation (LAB4DATE) 
-~~~~
-
-# RDF as generalized markup
-
-~~~~
-:SemesterFall2016 a :Semester ;
-  event:time [ a tl:Interval ;
-      tl:at "2016-08-22T00:00:00-5:00"^^xsd:dateTime ;
-      tl:duration "P70D"^^xsd:duration] ;
-  dcterms:subject :GenBackground ;
-  rdfs:label "Fall semester"@en .
-
-:Asgt3 a :Assignment ;
-  rdfs:label "Assignment 3: Research Design Proposal"@en ;
-  :moodleURL hwk:MOODLEASGT3 ;
-  :sylSecId "Asgt3" ;
-  :hasDeadline :A3M1, :A3M2, :A3M3, :A3D1, :A3D2, :A3D3 .
-
-:A3M1 a :Deadline ;
-  rdfs:label "Assignment 3 research question draft"@en ;
-  :dueDuring :Week3 ;
-  :dueDate "LAB3DATE" .
-~~~~
-
 
 # Standards as solutions
 
@@ -185,12 +115,83 @@ counts as a standard:
     are designed from the beginning to address as wide a range of needs
     as possible.
 
-# Further information
+# Markup
 
-This presentation adapted from:
+- Markup identifies the boundaries and properties of structures in a text.
+- Markup consists of symbols from the same repertoire as those used to
+  encode the text.
+- Even whitepace and punctuation are a kind of markup.
+- Presentational markup controls how document content is presented.
+- Structural markup highlights properties that can be presented more than one way.
 
-D. Dubin. Standards and information. In J. R. Schement, editor,
-*Encyclopedia of Communication and Information*, volume 3, pages
-965-967. Macmillan, New York, 2002.
+# Markdown
+
+~~~~
+**Assignments, Exercises & Grade Distribution:** 
+
+ - Assignment 1: Information Needs/Information Seeking
+   Behavior. Due A1DUE (20%).
+ - Assignment 2: Digital Collections Assessment.
+   Due A2DUE (20%).
+ - Assignment 3: Final Project. Due A3DUE (40%).
+ - 10 Labs for Attendance and Completion/Class
+   Participation (20%) 
+
+**Labs:**
+
+ 1. Library resources (LAB1DATE) 
+ 2. ITD on computing resources (LAB2DATE)
+ 3. Research methods exercise (LAB3DATE)
+ 4. Pandoc encoding and transformation (LAB4DATE) 
+~~~~
+
+# Generalized vs. specialized markup
+
+- A particular markup language is fixed with respect to the meanings of the tags.
+- A generalized markup framework allows you to define your own meanings.
+
+# SGML/XML Markup
+
+~~~~
+<syllabus>
+  <head>
+    <course>
+      <cname>Information Modeling</cname>
+      <cnumber>LIS 561</cnumber>
+      <dept>School of Information Sciences</dept>
+      <term>Fall 2016</term>
+    </course>
+    <sections>
+      <section>
+         <secid>Section A</secid>
+         <when>Monday 1:00 PM&ndash;3:50 PM</when>
+         <where>Room 126, LIS Building</where>
+      </section>
+   </sections>
+~~~~
+
+
+# RDF as generalized markup
+
+~~~~
+:SemesterFall2016 a :Semester ;
+  event:time [ a tl:Interval ;
+      tl:at "2016-08-22T00:00:00-5:00"^^xsd:dateTime ;
+      tl:duration "P70D"^^xsd:duration] ;
+  dcterms:subject :GenBackground ;
+  rdfs:label "Fall semester"@en .
+
+:Asgt3 a :Assignment ;
+  rdfs:label "Assignment 3: Research Design Proposal"@en ;
+  :moodleURL hwk:MOODLEASGT3 ;
+  :sylSecId "Asgt3" ;
+  :hasDeadline :A3M1, :A3M2, :A3M3, :A3D1, :A3D2, :A3D3 .
+
+:A3M1 a :Deadline ;
+  rdfs:label "Assignment 3 research question draft"@en ;
+  :dueDuring :Week3 ;
+  :dueDate "LAB3DATE" .
+~~~~
+
 
 # Further information
