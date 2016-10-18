@@ -19,6 +19,26 @@ header-includes:
 
 [@thomson89]
 
+# University Library Goals and Metrics
+
+From the Strategic Plan website: <https://strategicplan.illinois.edu/units/library.html>
+
+- Provide transformative learning experiences
+    - Number of total participants in group presentations
+    - Number of reference transactions
+    - On-site visits to the libraries
+    - Reserve course readings (electronic and print)
+    - Number of student research journals published by Library
+    - Reservations of student collaborative spaces
+- Make a significant and visible societal impact	
+    - Total number of filled ILL requests provided to other libraries
+    - Count of books in Google Books and HathiTrust
+    - IDEALS downloads
+    - Curated exhibits on- or off-campus, incl. in libraries and
+      partnerships with Krannert
+    - Number of "last copy" items added to print repository from
+      Illinois libraries
+
 # ServQual Instrument
 
 From [@nitecki_changing_1996]
@@ -52,5 +72,35 @@ From [@nitecki_changing_1996]
 
 ![Also called the LibQual pie chart](piechart.eps)
 
-# References
+# Factors informing the design of a scaling method
 
+1. Basic philosophy of measurement [@michell90]
+    - Operationalism
+    - Representational Theory
+    - Aristotelian
+2. Geometric Interpretation of Data (Coombs model: see [@jacoby1991data]
+    - Items being related interpreted as elements of same set vs. different sets.
+    - Pair relationship interpreted as partial order vs. proximity.
+3. Scaling model assumptions (see [@mciver1981unidimensional])
+    - Thurstonian scaling
+    - Likert scaling
+    - Guttman scaling
+    - Coombs unfolding model
+    - (many others)
+
+# Scaling Models
+
+![Comparison of scaling models](McIver.eps)
+
+# ISO 9001 Requirements for Quality Management Systems
+
+There's a lot more to these. See [@balague2011managing].
+
+- Address statutory and regulatory requirements.
+- Identify organizational processes relevant to quality management.
+- Identify and document criteria for the effectiveness of those processes.
+- Ensure the availability of resources for those processes.
+- Monitor, measure, and analyze the processes.
+- Take actions to ensure continued improvement.
+
+# References
