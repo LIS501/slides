@@ -177,7 +177,38 @@ for details.
   bear esthetic properties like originality and wittiness. At least
   not if those properties are essential rather than contingent
   [@levinson_what_1980].
-  
+
+# Ferraris on social objects and documentality
+
+- Maurizio Ferraris's [-@ferraris_documentality-or_2013] paper is a
+  part of relatively recent scholarship on the ontology of the social
+  world.
+
+- *Social objects* are bounded in time, but not in space: they are
+  neither physical nor abstract objects.
+
+- Examples include promises, mortgages, marriages, and graduate degrees.
+
+- There are also *social facts* about physical and abstract objects,
+  such as *being a twenty dollar bill*.
+
+- Much of what we say about works of authorship, art, and design makes
+  more sense if we understand them as social objects.
+
+- Ferraris believes that physical inscriptions and their abstract
+  information content sustain the social world.
+
+- On this account our academic discipline and our professional roles
+  are about much more than information and its physical carriers, even
+  though they are essential to how we get our work done.
+
+# Important ideas
+
+- Concepts: physical, abstract, and social objects; markup, OHCO,
+  documentality, documentation science.
+- People on our faculty: Allen Renear, Alistair Black
+- In our field: Paul Otlet, Michael Buckland
+- In philosophy: John R. Searle, Maurizio Ferraris, Barry Smith.
 
 # References
 
