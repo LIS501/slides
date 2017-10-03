@@ -1,7 +1,7 @@
 ---
 title: Structures and Standards in IOA
 author: Dave Dubin
-date: September 13, 2016
+date: October 3, 2017
 header-includes:
   - \usepackage[utf8]{inputenc}
   - \usepackage{amssymb}
@@ -73,6 +73,56 @@ hardware and software [@dubin02:standards].
     in the world and every technical symbol in common use.
 -   Unicode has proven to be a success story, despite its
     basis in a fundamentally flawed model.
+
+# ASCII Example
+~~~~
+01000001 0x41 65 A     01010000 0x50 80 P
+01000010 0x42 66 B     01010001 0x51 81 Q
+01000011 0x43 67 C     01010010 0x52 82 R
+01000100 0x44 68 D     01010011 0x53 83 S
+01000101 0x45 69 E     01010100 0x54 84 T
+01000110 0x46 70 F     01010101 0x55 85 U
+01000111 0x47 71 G     01010110 0x56 86 V
+01001000 0x48 72 H     01010111 0x57 87 W
+01001001 0x49 73 I     01011000 0x58 88 X
+01001010 0x4a 74 J     01011001 0x59 89 Y
+01001011 0x4b 75 K     01011010 0x5a 90 Z
+01001100 0x4c 76 L     01100001 0x61 97 a
+01001101 0x4d 77 M     01100010 0x62 98 b
+01001110 0x4e 78 N     01100011 0x63 99 c
+01001111 0x4f 79 O     01100100 0x64 100 d
+~~~~
+
+# Latin 1 Example
+
+| 01000001 0x41 65 A
+| 01000100 0x44 68 D
+| 01000101 0x45 69 E
+| 01001010 0x4a 74 J
+| 01100001 0x61 97 a
+| 01100010 0x62 98 b
+| 01100100 0x64 100 d
+| 11000101 0xc5 197 \AA
+| 11100101 0xe5 229 \aa
+| 11100110 0xe6 230 \ae
+| 11111000 0xf8 248 \o
+
+
+# UTF-8 Example
+
+| 01000001 0x41 65 A
+| 01000100 0x44 68 D
+| 01000101 0x45 69 E
+| 01001010 0x4a 74 J
+| 01100001 0x61 97 a
+| 01100010 0x62 98 b
+| 01100100 0x64 100 d
+| 1100001110000101 0xc385 50053 \AA
+| 1100001110100101 0xc3a5 50085 \aa
+| 1100001110100110 0xc3a6 50086 \ae
+| 1100001110111000 0xc3b8 50104 \o
+
+
 
 # Standards documents are difficult to read
 

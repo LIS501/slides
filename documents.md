@@ -80,6 +80,9 @@ csl: apa-annotated-bibliography.csl
   information, in material form, capable of being used for reference
   or study or as an authority."
 
+# Documents?
+![U.S. Fish and Wildlife Service](antelopes.eps)
+
 # What documents might *not* be: physical objects
 
 - Our ordinary and professional discourse is full of language that's
