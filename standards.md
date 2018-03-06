@@ -1,7 +1,7 @@
 ---
 title: Structures and Standards in IOA
 author: Dave Dubin
-date: October 3, 2017
+date: March 6, 2018
 header-includes:
   - \usepackage[utf8]{inputenc}
   - \usepackage{amssymb}

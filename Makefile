@@ -4,7 +4,7 @@
 .SUFFIXES: .tex .dvi .bib .pdf .sgml .html .m4 .md
 
 %.tex : %.md
-	pandoc -s -i -s --bibliography=$*.bib --filter pandoc-citeproc -t beamer -V theme:Warsaw -o $*.tex $*.md
+	pandoc -s -i -s --filter pandoc-citeproc -t beamer -V theme:Warsaw -o $*.tex $*.md
 
 %.pdf : %.tex
 	pdflatex $*.tex
