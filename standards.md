@@ -1,7 +1,7 @@
 ---
 title: Structures and Standards in IOA
 author: Dave Dubin
-date: March 6, 2018
+date: February, 2019
 header-includes:
   - \usepackage[utf8]{inputenc}
   - \usepackage{amssymb}
@@ -143,8 +143,7 @@ counts as a standard:
     its popularity.
 2.  A *de jure* standard has been reviewed and
     formally approved by a Standards Developing Organization (SDO) such
-    as ISO or one of its member organizations (e.g., ANSI in the
-    United States).
+    as those overseen by ISO or ANSI.
 3.  There are public specifications similar to *de jure*
     standards, but authorized by industry consortia.
 
