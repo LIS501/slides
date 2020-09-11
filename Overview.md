@@ -8,27 +8,31 @@ header-includes:
   - \usepackage{mathtools}
 ---
 
+# Tonight
+
+- General announcements
+- Questions arising from the reading assignment or last week's session.
+- Situating the stages of the resource description project
+- Brief discussion of the bibliography project
+- Breakout discussion in groups of three.
+
 
 # Concert Tickets
 
 ![CSNY](CSNY.jpg)\
 
 
-# Resources
+# Resources and relationships
 
-- Physical ticket with ID and barcode (different if reissued)
+![CSNY](CSNY.eps)\
 
-- Sales event transaction (price, date)
+# Breakout exercise
 
-- Entry license (section, row, seat number)
+1. Introduce yourself and your project ideas to each other.
+2. Engage constructively with your classmates' current proposals.
+3. Brainstorm some good discussion questions. Post them to the forum.
 
-- Concert event (July 10 2006, Toronto)
 
-- Tour event (Freedom of Speech, July 6-mid september)
 
-- Concert location (Air Canada Center - now Scotiabank Arena - Maple Leaf Sports and Entertainment)
 
-- Touring Company (The Next Adventure) owned by Live Nation (events promoter)
-
-- Ticket Broker (Ticketmaster)
 
